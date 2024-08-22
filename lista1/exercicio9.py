@@ -5,8 +5,8 @@ entre com o número correto de dígitos. Dica: Use as operações de divisão in
 
 numero = int(input("insira um numero inteiro de 5 digitos:"))
 primeiro = numero // 10000
-segundo = ((numero // 1000)-10)
-terceiro = ((numero // 100)-100)%10
-quarto = (((numero // 10)-1000)%100)%10
-quinto = (((((numero // 1)-10000)%10)
+segundo = ((numero // 1000)%10
+terceiro = ((numero // 100)%10
+quarto = (((numero // 10)%10
+quinto = (((((numero // 1)%10)
 print(primeiro," ",segundo," ",terceiro," ",quarto," ",quinto)
